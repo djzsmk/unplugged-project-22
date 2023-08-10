@@ -89,49 +89,49 @@ textarea {
 /* General Styles */
 
 html {
-
+  font-size: 1rem;
 }
 
 body {
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
 }
 
 ul,
 ol {
-
+  list-style-type: none;
 }
 
 a {
-
+  color: #e2e3ed;
+  text-decoration: none;
 }
 
 h2 {
-
+  font-family: 'Poppins', Sans-serif;
+  font-size: 1.875em;
 }
 
 h3,
 h4 {
-
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.125em;
+   margin: 20px 0;
 }
 
 p {
-
-}
-
-img {
-
-}
-
-figure {
-
+  font-size: 0.875em;
+  line-height: 18px;
 }
 
 address {
-
+  font-style: normal;
 }
 
 .content-wrapper {
-
+  width: 90%;
+  margin: 50px 0;
 }
 
 
@@ -171,6 +171,8 @@ header nav {
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    font-size: 1.125em;
+    font-weight: bold;
 }
 
 header nav ul {
@@ -268,6 +270,7 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .mission {
@@ -301,6 +304,7 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .faq-content {
@@ -536,7 +540,7 @@ aside {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+  /*general styles*/
 
  
 
@@ -548,7 +552,6 @@ aside {
  header {
     padding: 15px 0;
   }
-
 
   /* Hero */
   .her-area h1{
@@ -588,6 +591,7 @@ aside {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
   }
 
   /* =====================================================================================
@@ -597,6 +601,7 @@ aside {
   =====================*/
   .faq h2{
     width: 100%;
+    font-size: 3em;
   }
 }
 
