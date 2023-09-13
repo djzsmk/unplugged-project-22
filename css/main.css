@@ -733,6 +733,7 @@ input[type=button] {
   /* Reviews */
   .reviews article div {
     width: 42%;
+    
   }
 
   .reviews h2 {
