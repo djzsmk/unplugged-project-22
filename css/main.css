@@ -127,7 +127,7 @@ h4 {
 
 p {
   font-size: 0.875em;
-  line-height: 18px;
+  line-height: 1.285;
 }
 
 address {
@@ -154,7 +154,6 @@ figure {
 header {
     display:flex;
     justify-content: center;
-    flex-flow: row wrap;
     background-color: #202322;
     padding: 15px 0;
     
@@ -166,35 +165,36 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0px;
-}
-
-.header-divider {
-  width: 100%;
-  margin: 10px 0 20px 0;
-  height: 1px;
-  color: #3a3a3a;
+    margin: 0;
 }
 
 header figure {
   width:60%;
 }
 
+.header-divider {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  height: 1px;
+  background: #3a3a3a;
+}
+
+
 header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
     width: 60%;
     font-size: 1.125em;
-    font-weight: bold;
-    margin:auto;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 /*footer styles*/
@@ -248,8 +248,6 @@ footer .contact {
 aside {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     background-color: #527158;
 }
 
@@ -311,7 +309,6 @@ input[type=button] {
 .reviews {
     display:flex;
     justify-content: center;
-    flex-flow: row wrap;
     background-color: #2a423a;
 }
 
@@ -322,7 +319,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 30px;
+  line-height: 1;
 }
 /*----- About page-----*/
 
@@ -494,6 +491,14 @@ input[type=button] {
 
   }
 
+  header figure {
+    width: 30%;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
   header nav {
    width: 20%;
 
@@ -507,6 +512,10 @@ input[type=button] {
   
 
   /*Hero Area*/
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -524,7 +533,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40;
+    width: 40%;
     margin: 0;
   }
 
@@ -553,7 +562,7 @@ input[type=button] {
 
   }
 
-  .reviews article div {
+  .reviews article figure, .reviews article div {
     width: 49%;
   }
 
@@ -572,23 +581,28 @@ input[type=button] {
     margin: 100px 0;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
   }
 
-  .footer .contact {
+  footer .contact {
     margin-bottom: 0;
   }
 
-  .footer h4 {
+  footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
 
-  .footer p {
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
+  footer p {
     line-height: 1.285;
   }
 
@@ -673,10 +687,6 @@ input[type=button] {
     max-width: 30%;
   }
 
-  header nav {
-    width: 30%;
-  }
-
   header nav ul {
     justify-content: space-between;
     color: white;
@@ -697,7 +707,7 @@ input[type=button] {
   }
 
   /* Hero */
-  .her-area h1{
+  .hero-area h1{
     font-size: 3.75em;
     width: 80%;
   }
@@ -732,7 +742,7 @@ input[type=button] {
   }
 
   .reviews h2 {
-    width: 42%;
+    padding-bottom: 50px;
   }
 
   footer h4 {
