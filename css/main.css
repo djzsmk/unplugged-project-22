@@ -524,7 +524,7 @@ input[type=button] {
   }
 
   header nav {
-   width: 20%;
+   width: 30%;
 
   }
 
@@ -713,6 +713,10 @@ input[type=button] {
 
   header figure {
     max-width: 30%;
+  }
+
+  header nav {
+    width: 20%;
   }
 
   header nav ul {
