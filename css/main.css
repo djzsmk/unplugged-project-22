@@ -503,29 +503,28 @@ input[type=button] {
     /*header*/
 
     header {
-      justify-content: space-around;
       padding: 33px 0;
     }
 
     header .content-wrapper{
       justify-content: space-between;
+      width: 100%;
     }
 
     header figure {
       width: 30%;
     }
 
-    .header-divder {
+    .header-divider {
       display: none;
     }
 
     header nav {
-      width: 30%
+      width: 20%
     }
 
     header nav ul {
       justify-content: space-between;
-      display: flex;
     }
 
 
